@@ -10,4 +10,4 @@ into this:
 ## Usage
 Place corresponding `BoostMultiIndex.natvis` file into `%USERPROFILE%\My Documents\Visual Studio [version]\Visualizers`.
 
-**Note:** for `random_access_index` and `hashed_index_node` Visual Studio 2015 or above is requred.
+**Note:** for `random_access_index` and `hashed_index_node` Visual Studio 2015 or above is required.
