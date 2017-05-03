@@ -12,6 +12,7 @@ Place corresponding `BoostMultiIndex.natvis` file into `%USERPROFILE%\My Documen
 
 ## Compatibility:
 Visualizators are verified to work with following Boost and Visual Studio versions:
+
 | Index type            | **boost** version | Visual Studio |
 |:----------------------|:-----------------:|:-------------:|
 | `ordered_index`       | &ge; 1.59         | &ge; 2013     |
