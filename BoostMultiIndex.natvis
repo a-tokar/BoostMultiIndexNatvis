@@ -47,16 +47,10 @@
     <DisplayString>{{ size={(($T2*)this)-&gt;node_count} }}</DisplayString>
     <Expand>
       <Item Name="[capacity]">(($T2*)this)-&gt;ptrs.capacity_</Item>
-      <CustomListItems>
-        <Variable Name="Size" InitialValue="(($T2*)this)-&gt;ptrs.size_"/>
-        <Variable Name="Index" InitialValue="0"/>
-        <Size>Size</Size>
-        <Loop>
-          <Break Condition="Index == Size"/>
-          <Item>*reinterpret_cast&lt;$T2::value_type*&gt;(&amp;((boost::multi_index::detail::random_access_index_node&lt;$T1&gt;*)((($T2*)this)-&gt;ptrs.spc.data_[Index]))-&gt;space)</Item>
-          <Exec>++Index</Exec>
-        </Loop>
-      </CustomListItems>
+      <IndexListItems>
+        <Size>(($T2*)this)-&gt;node_count</Size>
+        <ValueNode>*reinterpret_cast&lt;$T2::value_type*&gt;(&amp;((boost::multi_index::detail::random_access_index_node&lt;$T1&gt;*)((($T2*)this)-&gt;ptrs.spc.data_[$i]))-&gt;space)</ValueNode>
+      </IndexListItems>
     </Expand>
   </Type>
 
