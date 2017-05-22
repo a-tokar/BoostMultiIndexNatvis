@@ -15,8 +15,8 @@ Visualizators are verified to work with following Boost and Visual Studio versio
 
 | Index type            | **boost** version | Visual Studio |
 |:----------------------|:-----------------:|:-------------:|
-| `ordered_index`       | &ge; 1.59         | &ge; 2013     |
-| `ranked_index`        | &ge; 1.59         | &ge; 2013     |
-| `sequenced_index`     | &ge; 1.50         | &ge; 2013     |
-| `random_access_index` | &ge; 1.50         | &ge; 2015     |
-| `hashed_index`        | &ge; 1.58         | &ge; 2015     |
+| `ordered_index`       | 1.59 - 1.64       | &ge; 2013     |
+| `ranked_index`        | 1.59 - 1.64       | &ge; 2013     |
+| `sequenced_index`     | 1.50 - 1.64       | &ge; 2013     |
+| `random_access_index` | 1.50 - 1.64       | &ge; 2015     |
+| `hashed_index`        | 1.58 - 1.64       | &ge; 2015     |
