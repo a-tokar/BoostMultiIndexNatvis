@@ -33,7 +33,7 @@
       </TreeItems>
       <!-- Visuzlizator for ordered_index_node_std_base (full node size) -->
       <TreeItems Optional="true">
-        <Size>(($T3*)this)->node_count</Size>
+        <Size>(($T3*)this)-&gt;node_count</Size>
         <HeadPointer>(boost::multi_index::detail::ordered_index_node_trampoline&lt;$T1,$T2&gt;*)(((boost::multi_index::detail::ordered_index_node_trampoline&lt;$T1,$T2&gt;*)(member))-&gt;parent_)</HeadPointer>
         <LeftPointer>(boost::multi_index::detail::ordered_index_node_trampoline&lt;$T1,$T2&gt;*)left_</LeftPointer>
         <RightPointer>(boost::multi_index::detail::ordered_index_node_trampoline&lt;$T1,$T2&gt;*)right_</RightPointer>
