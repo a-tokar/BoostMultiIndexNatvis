@@ -23,7 +23,7 @@
   <Type Name="boost::multi_index::detail::header_holder&lt;boost::multi_index::detail::ordered_index_node&lt;*,*&gt;*,*&gt;" Priority="Medium">
     <DisplayString>{{ size={(($T3*)this)-&gt;node_count} }}</DisplayString>
     <Expand>
-      <!-- Visuzlizator for ordered_index_node_compressed_base (reduced node size) -->
+      <!-- Visualization for ordered_index_node_compressed_base (reduced node size) -->
       <TreeItems Optional="true">
         <Size>(($T3*)this)-&gt;node_count</Size>
         <HeadPointer>(boost::multi_index::detail::ordered_index_node_trampoline&lt;$T1,$T2&gt;*)(((boost::multi_index::detail::ordered_index_node_trampoline&lt;$T1,$T2&gt;*)(member))-&gt;parentcolor_&amp;~uintptr_type(1))</HeadPointer>
@@ -31,7 +31,7 @@
         <RightPointer>(boost::multi_index::detail::ordered_index_node_trampoline&lt;$T1,$T2&gt;*)right_</RightPointer>
         <ValueNode>*reinterpret_cast&lt;$T3::value_type*&gt;(&amp;((boost::multi_index::detail::ordered_index_node&lt;$T1,$T2&gt;*)this)-&gt;space)</ValueNode>
       </TreeItems>
-      <!-- Visuzlizator for ordered_index_node_std_base (full node size) -->
+      <!-- Visualization for ordered_index_node_std_base (full node size) -->
       <TreeItems Optional="true">
         <Size>(($T3*)this)-&gt;node_count</Size>
         <HeadPointer>(boost::multi_index::detail::ordered_index_node_trampoline&lt;$T1,$T2&gt;*)(((boost::multi_index::detail::ordered_index_node_trampoline&lt;$T1,$T2&gt;*)(member))-&gt;parent_)</HeadPointer>
